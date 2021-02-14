@@ -4,13 +4,13 @@ const search = document.querySelector('.search input')
 
 
 const generateTodoTemplate = todo => {
-    const hmtl = `
+    const html = `
         <li class="list-group-item d-flex justify-content-between align-items-center">
             <span>${todo}</span>
             <i class="far fa-trash-alt delete"></i>
         </li>
     `
-    ul.innerHTML += hmtl;
+    ul.innerHTML += html;
 }
 
 addForm.addEventListener('submit', e => {
